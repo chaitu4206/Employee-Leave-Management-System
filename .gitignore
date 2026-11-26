@@ -1,0 +1,34 @@
+
+# Database backups
+*.sql
+*.dump
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Backend generated files
+elms-backend/target/
+elms-backend/.mvn/wrapper/maven-wrapper.jar
+*.log
+
+# Backend local configuration containing credentials
+elms-backend/src/main/resources/application.properties
+
+# Frontend dependencies and generated files
+elms-frontend/node_modules/
+elms-frontend/dist/
+elms-frontend/.env
+elms-frontend/.env.*
+
+# IDE settings
+.vscode/
+.idea/
+
+# Local Postman configuration
+.postman/
+
+# Operating system files
+.DS_Store
+Thumbs.db
